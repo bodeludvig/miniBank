@@ -2,7 +2,7 @@ import java.util.List;
 
 public class User {
     String socialSecurityNr;
-    String pinNr;
+    String pin;
     List<Account> accounts;
 
 //Methods
