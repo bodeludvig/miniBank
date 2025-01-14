@@ -1,2 +1,3 @@
-public class SaleryAccount {
+public class SaleryAccount extends Account {
+
 }
