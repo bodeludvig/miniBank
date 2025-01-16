@@ -7,6 +7,10 @@ public class User {
 
 //Methods
     //constructor för att skapa användare
+    public User() {
 
-    //getmethod för att hämta konton
+    }
+
+    //get-method för att hämta konton
+
 }

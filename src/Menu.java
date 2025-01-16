@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+//Metod för att visa huvudmeny
+//Lägg till en loop för att hantera meny
+//Switch eller if-else för menyval
+
 public class Menu {
 
     boolean exit; //default as false
@@ -44,7 +48,7 @@ public class Menu {
             case 1:
                 createAccount();
             case 2:
-                login();
+                //login();
                 break;
             case 3:
                 exit = true;
@@ -61,7 +65,7 @@ public class Menu {
         String userName = userInputName.nextLine();
 
         Scanner userInputPass = new Scanner(System.in);
-        System.out.println("Enter a password: ");
+        System.out.print("Enter a password: ");
         String userPass = userInputPass.nextLine();
 
         System.out.println("Your username is: " + userName + " and your password is: " + userPass);
